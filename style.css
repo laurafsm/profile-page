@@ -1,0 +1,126 @@
+/* Write some CSS below */
+body {
+  background-color: #ffdbee;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333333 ;
+    font-size: 16px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    font-family: "Roboto", serif;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 700;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  div {
+    background-color: rgba(255, 255, 255, 0.764);
+    box-shadow: 0 10px 20px rgba(255, 252, 254, 0);
+    padding: 48px;
+    margin: 40px auto;
+    border-radius: 5px;
+    width: 600px;
+  }
+  
+  img {
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  a {
+    color:rgb(0, 0, 0);
+    background-color: #fefefe;
+    border-radius: 5px;
+    padding: 15px 25px;
+  }
+  
+  a:hover {
+    background-color: #ffcdf3;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+  }
+ 
+    li {
+    padding: 5px 0;
+  }
+
+    .boutonlogo {
+    display: inline-block;
+    background-color: #FFFF;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+ 
+    .boutonlogo img {
+    width: auto;
+    height: 60px;
+    border-radius: 0;
+  }
+ 
+    .boutonlogo:hover {
+        background-color: rgb(63, 63, 63);
+}
+ 
+    .imageski  {
+    border-radius: 0;
+    height: 150px;
+  }
+
+  .social-media-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+ 
+.social-media-buttons:hover {
+transform: scale(1.1);
+}
+ 
+.social-button {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+}
+ 
+.social-button i {
+    font-size: 45px;
+    line-height: 40px;
+}
+ 
+.social-button:hover {
+  opacity: 0.7;
+ 
+}
+  
+.effect{
+  transition: 0.5s;
+}
